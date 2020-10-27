@@ -1,0 +1,26 @@
+{
+    "prefix": "!",
+    "token": "NzUyMzYwMjg2MDk0MjI5NjA0.X1WgHg.gRCLClb1YrPStwa4ZbE7j3KDZt0",
+
+    "eventCommands": [
+        "start","end"
+    ],
+    "editCommands": [
+        "capacity","date","time","game","movie"
+    ],
+    "createCommands": [
+        "gamenight","movienight"
+    ],
+    
+    "GameNight": [
+        "Type **back** at any time to go back to the previous question or type **cancel** at any time to stop the setup process.\n\nWhat is the date of your event? **MONTH DAY**\n\n:arrow_down: ENTER DATE :arrow_down:",
+        "What is the time when your event will start? **00:00 A.M./P.M.**\n\n:arrow_down: ENTER TIME :arrow_down:",
+        "What game are you playing?\n\n:arrow_down: ENTER GAME TITLE :arrow_down:",
+        "How many players will be allowed to join?\n\n:arrow_down: ENTER NUMBER :arrow_down:"
+    ],
+    "MovieNight": [
+        "Type **back** at any time to go back to the previous question or type **cancel** at any time to stop the setup process.\n\nWhat is the date of your event? **MONTH DAY**\n\n:arrow_down: ENTER DATE :arrow_down:",
+        "What is the time when your event will start? **00:00 A.M./P.M.**\n\n:arrow_down: ENTER TIME :arrow_down:",
+        "What movie are you watching?\n\n:arrow_down: ENTER GAME TITLE :arrow_down:"
+    ]
+}
