@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const Client = new Discord.Client();
-const {prefix, token} = require('./config.json');
-const {eventCommands, editCommands, createCommands} = require('./config.json');
+const {prefix, eventCommands, editCommands, createCommands} = require('./config.json');
+require('dotenv');
 
 const fs = require('fs');
 
