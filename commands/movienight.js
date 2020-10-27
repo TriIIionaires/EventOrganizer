@@ -20,7 +20,7 @@ module.exports = {
         const key = require('../handlers/handler.js').CreateID(Client, 'MN');
 
         let PLAYERS = [];
-        Client.events.set(key, {host: user, members: 0, hasStarted: false});
+        Client.events.set(key, {host: user, members: PLAYERS, hasStarted: false});
 
         const Event = Client.events.get(key);
         const Filter = require('../handlers/filter.js');
